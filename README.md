@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-classic-htmlcss-ULl8O_8VnF)
-- Live Site URL: [](https://frontend-mentor-nft-preview-card-co-ten.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-using-classic-htmlcss-ULl8O_8VnF](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-classic-htmlcss-ULl8O_8VnF)
+- Live Site URL: [https://frontend-mentor-nft-preview-card-co-ten.vercel.app/](https://frontend-mentor-nft-preview-card-co-ten.vercel.app/)
 
 ## Author
 
