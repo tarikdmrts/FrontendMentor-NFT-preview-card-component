@@ -1,0 +1,125 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 18px;
+}
+
+.c-component {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  width: 350px;
+}
+.c-component__image {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+.c-component__image img {
+  width: 300px;
+  border-radius: 15px;
+}
+.c-component img {
+  max-width: 100%;
+  height: auto;
+}
+.c-component__content {
+  width: 300px;
+}
+.c-component__title {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  font-size: 22px;
+  margin: 10px 0px;
+  font-weight: 400;
+}
+.c-component__title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.c-component__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-component__price {
+  display: flex;
+  justify-content: center;
+}
+.c-component__price span {
+  padding-left: 5px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.c-component__time {
+  display: flex;
+  justify-content: center;
+}
+.c-component__time img {
+  height: auto;
+  width: 20px;
+  margin-right: 5px;
+}
+.c-component__creator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.c-component__creator img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid white;
+}
+.c-component__creator-name {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+.c-component__creator-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.c-component__divider {
+  border: none;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  margin: 20px 0px 0px 0px;
+}
+.c-component__image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: hsl(178, 100%, 50%, 0.5);
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-component__image:hover .c-component__image__overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+.c-overlay-icon {
+  opacity: 1;
+  width: 60px !important;
+  height: auto;
+}
